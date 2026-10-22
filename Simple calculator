@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num1, num2;
+
+    printf("------------------------------------\n");
+    printf("             Calculator             \n");
+    printf("------------------------------------\n");
+
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+
+    printf("------------------------------------\n");
+    printf("Addition: %d\n", num1 + num2);
+    printf("Subtraction: %d\n", num1 - num2);
+    printf("Multiplication: %d\n", num1 * num2);
+    printf("Divison: %d\n", num1 / num2);
+    printf("Modulus: %d\n", num1 % num2);
+    printf("Power: %.0f\n", pow(num1, num2));
+    printf("------------------------------------\n");
+
+    return 0;
+}
